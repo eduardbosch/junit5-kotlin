@@ -67,7 +67,6 @@ open class DefaultTypeFactory: SealedClassesSource.TypeFactory {
             Boolean::class -> false
             Throwable::class -> Throwable()
             List::class -> emptyList<Any>()
-            Array::class -> emptyArray<Any>()
             Map::class -> emptyMap<Any, Any>()
             Set::class -> emptySet<Any>()
             else -> null
